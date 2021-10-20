@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #111;
+}
+
+
+
+.pic_posters {
+  padding-left: 10px;
+  display:flex;
+  justify-content: space-between;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  
+}
+
+.pic_posters::-webkit-scrollbar {
+  display: none
+}
+
+.pic_posters:hover {
+  transform: scale(1.08);
+}
